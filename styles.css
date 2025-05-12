@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/cellular-5114845_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    font-size: 20px;
+
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: khaki;
+    padding: 5rem;
+    font-size: 35px;
+    text-wrap: wrap;
+}
+
+
+
+.header-text button{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    }
+
+    .service_section{
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    color: blueviolet;
+}
+
+.service-text p{
+    font-size: 35px;
+    word-wrap: break-word;
+    color: black;
+    
+}
+
+   .service_section img{
+    height: 80px;
+    width: 80px;
+   }
+
+   .service-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    
+   }
+
+   .service-img span{
+    border: 1px solid;
+       }
+
+       img{
+        display: flex;
+        align-items: center;
+       }
+
+      
+
+   
