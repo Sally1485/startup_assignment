@@ -6,25 +6,18 @@
     margin: 0%;
 }
 
-p {
-    font-family: cormorant Garamond sans-serif;
-}
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cellular-5114845_1280.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-}
+
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-
+    background-color: saddlebrown;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 a {
@@ -39,20 +32,29 @@ a:hover {
     color: blueviolet;
 }
 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cellular-5114845_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
 .header-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: khaki;
-    margin: 60px;
     font-size: 35px;
-    text-wrap: wrap;
+    height: 100vh;
 }
 
+.header-text h1{
+text-align: center;   
 
+}
 
 .header-text button {
-    margin: 60px;
     padding: 1rem 1rem;
     border: none;
     border-radius: 20px;
@@ -72,6 +74,8 @@ a:hover {
     align-items: center;
     font-size: 10px;
     color: blueviolet;
+     width: 40%;
+    margin: auto; 
 }
 
 .service-text p {
@@ -79,9 +83,6 @@ a:hover {
     word-wrap: break-word;
     color: black;
     margin: 40px;
-    line-height: 2.5;
-
-
 }
 
 .service_section img {
@@ -95,6 +96,8 @@ a:hover {
     flex-direction: row;
     align-items: center;
     gap: 30px;
+     width: 80%;
+    margin: auto; 
 
 }
 
@@ -126,6 +129,7 @@ img {
     justify-content: space-around;
     background-color: black;
 
+
 }
 
 .about_section img {
@@ -143,7 +147,8 @@ img {
     padding: 2rem;
     height: 70vh;
     gap: 40px;
-    width: 50%;
+     width: 40%;
+    margin: auto; 
 
 }
 
@@ -162,7 +167,9 @@ img {
 .feature {
     display: flex;
     flex-direction: column;
-}
+     width: 40%;
+    margin: auto;
+} 
 
 .feature-text {
     display: flex;
@@ -192,5 +199,91 @@ img {
 .img-feature {
     width: 300px;
     padding: 0 30px;
+}
 
+.work_section {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(100, 87, 87);
+    justify-content: center;
+    padding: 30px;
+}
+
+.work_section img {
+    width: 100%;
+    height: 60vh;
+}
+
+.work-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-around;
+    height: 30vh;
+     width: 40%;
+    margin: auto; 
+    font-size: 15px;
+
+}
+
+.work-text h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.work-text h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.creative_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creative_section img {
+    width: 65%;
+    height: 200px;
+}
+
+.creative-info{
+ display: flex;
+ flex-direction: row;
+}
+
+.creative-text{
+    padding: 2rem;
+    text-align: center;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+.creative-text p{
+    padding: 20px;
+}
+
+.creative-info h4{
+    padding: 10px;
+
+}
+
+.creative-info p{
+    padding: 2px;
+    
+}
+
+.portfolio{
+    background-image: url(./images/camera-4123304_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.portfolio img{
+    width: 5%;
+    height: 40px;
+    border-radius: 2;
 }
